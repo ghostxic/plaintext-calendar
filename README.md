@@ -32,8 +32,8 @@ A web application that converts natural language (text/audio) into Google Calend
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/ghostxic/calendar-project.git
-cd calendar-project
+git clone https://github.com/ghostxic/plaintext-calendar.git
+cd plaintext-calendar
 ```
 
 2. Set up the backend:

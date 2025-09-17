@@ -224,7 +224,7 @@ router.get('/google/callback', async (req, res) => {
      * and use the appropriate frontend URL.
      */
     const frontendUrl = process.env.NODE_ENV === 'production' 
-      ? `https://ghostxic.github.io/calendar-project/#/auth/callback?token=${jwtToken}`  // Production URL
+      ? `https://ghostxic.github.io/plaintext-calendar/#/auth/callback?token=${jwtToken}`  // Production URL
       : `${process.env.FRONTEND_URL}/#/auth/callback?token=${jwtToken}`;                 // Development URL
     
     /**

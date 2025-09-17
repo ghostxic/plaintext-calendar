@@ -60,7 +60,7 @@ const allowedOrigins = [
   'http://localhost:5173',                    // Local development frontend (Vite default port)
   'http://localhost:5174',                    // Alternative local development port
   'https://ghostxic.github.io',               // Production frontend domain
-  'https://ghostxic.github.io/calendar-project' // Specific production app path
+  'https://ghostxic.github.io/plaintext-calendar' // Specific production app path
 ];
 
 /**
